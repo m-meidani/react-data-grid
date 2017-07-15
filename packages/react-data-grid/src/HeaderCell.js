@@ -75,7 +75,7 @@ const HeaderCell = React.createClass({
   getStyle(): {width:number; left: number; display: string; position: string; overflow: string; height: number; margin: number; textOverflow: string; whiteSpace: string } {
     return {
       width: this.props.column.width,
-      left: this.props.column.left,
+      right: this.props.column.left,
       display: 'inline-block',
       position: 'absolute',
       height: this.props.height,
